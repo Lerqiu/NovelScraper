@@ -12,7 +12,7 @@ object EmailNotification {
     private var host: String = "smtp.gmail.com"
     private var port: Int = 587
     private var username: String= "lerqiua@gmail.com"
-    private var password: String = "Altron403"
+    private var password: String = //hasło do konta
     private var senderEmail: String= "lerqiua@gmail.com"
 
     fun sendMail(to: String?, subject: String?, content: String?) {
